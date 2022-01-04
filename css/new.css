@@ -1,0 +1,90 @@
+/* 
+  .header-top {
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  } */
+  .header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    background: #efefef;
+  }
+  
+  .text-bg {
+    text-align: left;
+  }
+  .text-bg h1 {
+    color: #000;
+    padding-top: 50px;
+    font-size: 71px;
+    line-height: 85px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .text-bg p {
+    font-size: 17px;
+    display: block;
+    color: #200769;
+    line-height: 25px;
+    padding-bottom: 50px;
+    font-weight: 500;
+  }
+  .text-bg a {
+    font-size: 16px;
+    border: #4c5a7d solid 1px;
+    background-color: #4c5a7d;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  .text-bg a:hover {
+    background-color: #200769;
+    border: #200769 solid 1px;
+    color: #fff;
+  }
+  .text {
+    position: inherit;
+    text-align: left;
+    background: #0fbbad;
+    width: 100%;
+    bottom: auto;
+    padding: 0;
+    margin-top: 90px;
+  }
+  .black_nolmal {
+    font-weight: normal;
+    color: #000;
+  }
+  .carousel-indicators {
+    left: inherit;
+    top: 40%;
+    margin-right: 2%;
+    display: block;
+  }
+  .carousel-caption {
+    position: inherit;
+  }
+  .carousel-indicators .active {
+    background-color: #f4b328;
+  }
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: #000;
+    margin: 5px 0px;
+  }
+  .padding_dd {
+    padding: 0px 50px;
+  }
